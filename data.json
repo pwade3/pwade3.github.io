@@ -2,11 +2,11 @@
     "Kits":[
         {
             "kitname:":"Base",
-            "image":{
+            "image":[{
                 "name":"Kit_Base-2.jpg",
                 "alt":"Base",
                 "desc":"Base Kit"
-            },
+        }],
             "text":"This kit will cover most users, Full size, 1800, TKL, 65%, 60%, all are represented here (even UK ISO users). There's a few extras like a stepped control key, an R4 1.5u Caps Lock, and R3/R4 Pg Up/Dn that'll help you get the exact legends you want on the right keys. One change from R1 is things like the stepped caps lock and num lock getting changed to single-line legends for more consistency. Numpad sublegends have been removed for an overall cleaner look as well. "
         },
         {
