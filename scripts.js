@@ -1,4 +1,4 @@
-function openModal() {
+/*function openModal() {
   document.getElementById("myModal").style.display = "block";
   document.getElementById("myModal").focus();
 }
@@ -49,4 +49,4 @@ document.getElementById("myModal").addEventListener("keydown", function(event){
             closeModal();
             break;
     }
-});
+});*/
