@@ -91,6 +91,7 @@ $().ready(function(){
         modalContent+='</div';
 
         console.log(modalContent);
+        $("#myModal").append(modalContent);
 
     });
 });
