@@ -76,7 +76,7 @@ $().ready(function(){
         {
             modalContent+='<div class="column">';
             var slideNum = i;
-            slideNum = parseInt(slidenum)+parseInt(1);
+            slideNum = parseInt(slideNum)+parseInt(1);
             modalContent+='<img class="demo" src=images/renders'+data.Kits[i].image.name+'" onclick="currentSlide('+slideNum+') alt="'+data.Kits[i].image.desc+'">';
             modalContent+='</div>';
         }
