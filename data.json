@@ -1,0 +1,79 @@
+{
+    "Renders": [
+        {
+            "name":"910_Top.jpg",
+            "alt":"910 Top Render",
+            "desc":"TGR 910 with Boba Alphas"
+        },
+        {
+            "name":"Kit_Base-2.jpg",
+            "alt":"Base",
+            "desc":"Base Kit"
+        },
+        {
+            "name":"Kit_Ergo.jpg",
+            "alt":"Ergo/Ortho/40s",
+            "desc":"Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"Kit_Alpha.jpg",
+            "alt":"Boba Alphas",
+            "desc":"Boba Alpha Kit"
+        },
+        {
+            "name":"Kit_Accent.jpg",
+            "alt":"Extra Toppings",
+            "desc":"Extra Toppings Kit"
+        },
+        {
+            "name":"Kit_Spacebar.jpg",
+            "alt":"Extra Straws",
+            "desc":"Extra Straws Kit"
+        },
+        {
+            "name":"910_Angle.jpg",
+            "alt":"910 Angle",
+            "desc":"TGR 910 with Boba Alphas"
+        },
+        {
+            "name":"Campine_Top.jpg",
+            "alt":"Campine Top",
+            "desc":"Panc.Co Campine with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"Campine_Angle.jpg",
+            "alt":"Campine Angle",
+            "desc":"Panc.co Campine with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"Minorca_Top.jpg",
+            "alt":"Minorca Top",
+            "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"Minorca_Angle.jpg",
+            "alt":"Minorca Angle",
+            "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"Sebright_Top.jpg",
+            "alt":"Sebright Top",
+            "desc":"Panc.co Sebright with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"Sebright_Angle.jpg",
+            "alt":"Sebright Angle",
+            "desc":"Panc.co Sebright with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"MinorcaWhite_Top.jpg",
+            "alt":"White Minorca Top",
+            "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
+        },
+        {
+            "name":"MinorcaWhite_Angle.jpg",
+            "alt":"White Minorca Angle",
+            "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
+        }
+    ]
+}
