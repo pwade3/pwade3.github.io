@@ -35,7 +35,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-document.getElementById("sommyModalediv").addEventListener("keydown", function(event){
+document.getElementById("myModal").addEventListener("keydown", function(event){
     //do something on keydown
     if(event.keyCode==37){
      alert("left key pressed");
