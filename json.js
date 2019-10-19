@@ -11,25 +11,23 @@ $().ready(function(){
             $("#kits").append('<br>');
         }
 
-        
+        var table = "<table><tr>"
         for(i in data.Renders)
         {
-            if(i==0)   
-                $("#renderGallery").append("<table><tr>");
-
             var num = i;
             num = parseInt(num)+parseInt(7);
-            $("#renderGallery").append("<td>");
-            $("#renderGallery").append('<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="images/renders/'+data.Renders[i].name+'" alt="'+data.Renders[i].alt+'">');
-            $("#renderGallery").append("</td>");
+            table+="<td>";
+            table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="images/renders/'+data.Renders[i].name+'" alt="'+data.Renders[i].alt+'">';
+            table+="</td>";
             if(parseInt(i)%3 == 0)
             {
-                $("#renderGallery").append("</tr>");
+                table+="</tr>";
             }
 
-            if(i == data.Renders.length)
-                $("#renderGallery").append("</tr></table>");
+
 
         }
+        table+="</tr></table>";
+        $("#renderGallery").append(table);
     });
 });
