@@ -1,5 +1,5 @@
 body {
-  background-color: #221C35;
+  background-color: #9595D2;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 h1 {
@@ -35,5 +35,6 @@ html, body {
 }
 .container {
     display: inline-block;
+    background-color: #221C35;
     padding: 50px;
 }
