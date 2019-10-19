@@ -146,6 +146,6 @@ document.getElementById("myModal").addEventListener("keydown", function(event){
             closeModal();
             break;
     }
-});
+    })
 });
 
