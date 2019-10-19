@@ -15,7 +15,7 @@ $().ready(function(){
         for(i = 1; i < data.Renders.length; i++)
         {
             var num = i;
-            num = parseInt(num)+parseInt(7);
+            num = parseInt(num)+parseInt(6);
             table+="<td>";
             table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="images/renders/'+data.Renders[i].name+'" alt="'+data.Renders[i].alt+'">';
             table+="</td>";
