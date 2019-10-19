@@ -12,11 +12,20 @@ p {
   color: #9595D2;
 }
 
+a:link{
+    color: #00a4a9;
+}
+
+a:visited:{
+    color: #f8c200;
+}
+
 html, body {
     height: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
     padding: 0;
+    margin-top:0;
 }
 
 .kitRender {
