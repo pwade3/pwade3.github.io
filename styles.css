@@ -82,11 +82,11 @@ html, body {
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    /*background-color: #fefefe;*/
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width:1200px;
+    /*max-width:1200px;*/
   }
   
   /* The Close Button */
