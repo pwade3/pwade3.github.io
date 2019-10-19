@@ -34,3 +34,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+document.onkeydown = function(event){
+    switch(event.keyCode){
+        case 37:
+            alert('left key pressed');
+            break;
+    }
+}
