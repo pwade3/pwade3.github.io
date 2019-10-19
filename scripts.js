@@ -35,10 +35,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-function checkKey(event){
-    switch(event.keyCode){
-        case 37:
+document.addEventListener('keydown',(e) => {
+    if (e.code === "ArrowLeft")
             alert('left key pressed');
-            break;
-    }
-}
+});
