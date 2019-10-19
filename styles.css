@@ -14,7 +14,7 @@ p {
 
 html, body {
     height: 100%;
-    margin: 5;
+    margin: 50;
     padding: 0;
 }
 
@@ -36,5 +36,5 @@ html, body {
 .container {
     display: inline-block;
     background-color: #221C35;
-    padding: 150px;
+    padding: 50px;
 }
