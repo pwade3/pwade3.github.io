@@ -35,7 +35,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-document.onkeydown = function(event){
+function checkKey(event){
     switch(event.keyCode){
         case 37:
             alert('left key pressed');
