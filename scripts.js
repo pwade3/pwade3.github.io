@@ -38,10 +38,15 @@ function showSlides(n) {
 
 document.getElementById("myModal").addEventListener("keydown", function(event){
     //do something on keydown
-    if(event.keyCode==37){
-     alert("left key pressed");
-    }
-    if (event.keyCode >= 65 && event.keyCode <= 90){
-       alert("asdfasdf");
+    switch (event.keyCode){
+        case 37:
+            plusSlides(-1);
+            break;
+        case 39:
+            plusSlides(1);
+            break;
+        case 27:
+            closeModal();
+            break;
     }
 });
