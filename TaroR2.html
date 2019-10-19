@@ -36,7 +36,9 @@
 </div>
 
 <h2>Extra Straws</h2>
-<img class="kitRender" src="images/renders/Kit_Spacebar.jpg" alt="spacebarKit">
+<div class="column">
+<img class="kitRender hover-shadow" onclick="openModal();currentSlide(5)" src="images/renders/Kit_Spacebar.jpg" alt="spacebarKit">
+</div>  
 
 <h2>Novelties</h2>
 <p>WIP, boba caps will return, with hopefully more to come!</p>
@@ -49,23 +51,28 @@
         <div class="modal-content">
       
           <div class="mySlides">
-            <div class="numbertext">1 / 4</div>
+            <div class="numbertext">1 / 5</div>
             <img src="images/renders/Kit_Base-2.jpg" style="width:100%">
           </div>
       
           <div class="mySlides">
-            <div class="numbertext">2 / 4</div>
-            <img src="img2_wide.jpg" style="width:100%">
+            <div class="numbertext">2 / 5</div>
+            <img src="images/renders/Kit_Ergo.jpg" style="width:100%">
           </div>
       
           <div class="mySlides">
-            <div class="numbertext">3 / 4</div>
-            <img src="img3_wide.jpg" style="width:100%">
+            <div class="numbertext">3 / 5</div>
+            <img src="images/renders/Kit_Alpha.jpg" style="width:100%">
           </div>
       
           <div class="mySlides">
-            <div class="numbertext">4 / 4</div>
-            <img src="img4_wide.jpg" style="width:100%">
+            <div class="numbertext">4 / 5</div>
+            <img src="images/renders/Kit_Accent.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="images/renders/Kit_Spacebar.jpg" style="width:100%">
           </div>
       
           <!-- Next/previous controls -->
@@ -79,19 +86,23 @@
       
           <!-- Thumbnail image controls -->
           <div class="column">
-            <img class="demo" src="images/renders/Kit_Base-2.jpg" onclick="currentSlide(1)" alt="Nature">
+            <img class="demo" src="images/renders/Kit_Base-2.jpg" onclick="currentSlide(1)" alt="Base">
           </div>
       
           <div class="column">
-            <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+            <img class="demo" src="images/renders/Kit_Ergo.jpg" onclick="currentSlide(2)" alt="Ergo/Ortho/40s">
           </div>
       
           <div class="column">
-            <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+            <img class="demo" src="images/renders/Kit_Alpha.jpg" onclick="currentSlide(3)" alt="Boba Alphas">
           </div>
       
           <div class="column">
-            <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+            <img class="demo" src="images/renders/Kit_Accent.jpg" onclick="currentSlide(4)" alt="Extra Toppings">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="images/renders/Kit_Spacebar.jpg" onclick="currentSlide(5)" alt="Extra Straws">
           </div>
         </div>
       </div>
