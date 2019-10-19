@@ -38,7 +38,7 @@ $().ready(function(){
 
         modalContent+='<div class="mySlides">';
         modalContent+='<div class="numbertext"> 1 / ' + slideCount + '</div>';
-        modalContent+='<img src=images/renders'+data.Renders[0].name+'" style="width:100%"';
+        modalContent+='<img src=images/renders'+data.Renders[0].name+'" style="width:100%">';
         modalContent+='</div>';
 
         console.log(slideCount)
@@ -48,7 +48,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(2);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img src=images/renders/'+data.Kits[i].image.name+'" style="width:100%"';
+            modalContent+='<img src=images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
             modalContent+='</div>';
         }
         for(i in data.Renders)
@@ -57,7 +57,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(6);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img src=images/renders/'+data.Renders[i].name+'" style="width:100%"';
+            modalContent+='<img src=images/renders/'+data.Renders[i].name+'" style="width:100%">';
             modalContent+='</div>';
         }
 
