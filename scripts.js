@@ -35,7 +35,12 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-document.addEventListener('keydown',(e) => {
-    if (e.code === "ArrowLeft")
-            alert('left key pressed');
+document.getElementById("sommyModalediv").addEventListener("keydown", function(event){
+    //do something on keydown
+    if(event.keyCode==37){
+     alert("left key pressed");
+    }
+    if (event.keyCode >= 65 && event.keyCode <= 90){
+       alert("asdfasdf");
+    }
 });
