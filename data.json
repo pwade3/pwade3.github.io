@@ -1,7 +1,7 @@
 {
     "Kits":[
         {
-            "name:":"Base",
+            "kitname:":"Base",
             "image":{
                 "name":"Kit_Base-2.jpg",
                 "alt":"Base",
@@ -10,7 +10,7 @@
             "text":"This kit will cover most users, Full size, 1800, TKL, 65%, 60%, all are represented here (even UK ISO users). There's a few extras like a stepped control key, an R4 1.5u Caps Lock, and R3/R4 Pg Up/Dn that'll help you get the exact legends you want on the right keys. One change from R1 is things like the stepped caps lock and num lock getting changed to single-line legends for more consistency. Numpad sublegends have been removed for an overall cleaner look as well. "
         },
         {
-            "name:":"Ergo/Ortho/40s",
+            "kitname:":"Ergo/Ortho/40s",
             "image":{
                 "name":"Kit_Ergo.jpg",
                 "alt":"Ergo/Ortho/40s",
@@ -19,7 +19,7 @@
             "text":"This kit is for those of you with slightly more adventurous layouts. This is intended for your Ergo split boards, ortholinear boards, even staggered 40%s. INSERT EXAMPLE BOARDS HERE The blank modifiers help cut down on redundancy (i.e. 3 Tab keys, 4 enter keys) which will help keep the set more affordable! "
         },
         {
-            "name:":"Boba Alphas",
+            "kitname:":"Boba Alphas",
             "image":{
                 "name":"Kit_Alpha.jpg",
                 "alt":"Boba Alphas",
@@ -28,7 +28,7 @@
             "text":"Something new for R2, this kit lets you go for a monochromatic look using that lovely modifier color. There's also an extra Tab key in here so if you really love the set, you'll have enough keys to be able to kit out 2 boards instead of just leaving all those unused keys in a drawer somewhere."
         },
         {
-            "name:":"Extra Toppings",
+            "kitname:":"Extra Toppings",
             "image":{
                 "name":"Kit_Accent.jpg",
                 "alt":"Extra Toppings",
@@ -37,7 +37,7 @@
             "text":"Want to add some more color than the base kit provides? Look no further. This kit has 2 different sets of arrow keys, spacebars, ISO enters, and numpad enters. We've also got a 6u spacebar here for you C70 users."
         },
         {
-            "name:":"Extra Straws",
+            "kitname:":"Extra Straws",
             "image":        {
                 "name":"Kit_Spacebar.jpg",
                 "alt":"Extra Straws",
