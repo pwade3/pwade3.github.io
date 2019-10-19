@@ -11,9 +11,12 @@ $().ready(function(){
             $("#kits").append('<br>');
         }
 
-        $("#renderGallery").append("<table><tr>");
+        
         for(i in data.Renders)
         {
+            if(i==0)   
+                $("#renderGallery").append("<table><tr>");
+
             var num = i;
             num = parseInt(num)+parseInt(7);
             $("#renderGallery").append("<td>");
@@ -23,8 +26,10 @@ $().ready(function(){
             {
                 $("#renderGallery").append("</tr>");
             }
-        }
-        $("#renderGallery").append("</tr></table>");
 
+            if(i == data.Renders.length)
+                $("#renderGallery").append("</tr></table>");
+
+        }
     });
 });
