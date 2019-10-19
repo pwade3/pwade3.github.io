@@ -12,7 +12,7 @@ $().ready(function(){
         }
 
         var table = "<table><tr>"
-        for(i in data.Renders)
+        for(i = 1; i < data.Renders.length; i++)
         {
             var num = i;
             num = parseInt(num)+parseInt(7);
@@ -23,9 +23,6 @@ $().ready(function(){
             {
                 table+="</tr>";
             }
-
-
-
         }
         table+="</tr></table>";
         $("#renderGallery").append(table);
