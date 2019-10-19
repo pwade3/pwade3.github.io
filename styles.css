@@ -85,8 +85,7 @@ html, body {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    width: 30%;
-    max-width: 1200px;
+    width: 100%;
   }
   
   /* The Close Button */
