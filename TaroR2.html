@@ -3,9 +3,10 @@
 <head>
     <title>GMK Taro R2</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script> 
 </head>
 <body>
-<div class="container">
+<div class="container row">
 <img class="kitRender" src="images/renders/910_Top.jpg" alt="910 Top Render">
 
 
@@ -15,16 +16,24 @@
 <h1>Kits</h1>
 
 <h2>Base</h2>
-<img class="kitRender" src="images/renders/Kit_Base-2.jpg" alt="baseKit">
+<div class="column">
+<img class="kitRender hover-shadow" onclick="openModal();currentSlide(1)" src="images/renders/Kit_Base-2.jpg" alt="baseKit">
+</div>
 
 <h2>Ergo/Ortho/40s</h2>
-<img class="kitRender" src="images/renders/Kit_Ergo.jpg" alt="ergoKit">
+<div class="column">
+<img class="kitRender hover-shadow" onclick="openModal();currentSlide(2)" src="images/renders/Kit_Ergo.jpg" alt="ergoKit">
+</div>
 
 <h2>Boba Alphas</h2>
-<img class="kitRender" src="images/renders/Kit_Alpha.jpg" alt="alphaKit">
+<div class="column">
+<img class="kitRender hover-shadow" onclick="openModal();currentSlide(3)" src="images/renders/Kit_Alpha.jpg" alt="alphaKit">
+</div>
 
 <h2>Extra Toppings</h2>
-<img class="kitRender" src="images/renders/Kit_Accent.jpg" alt="accentKit">
+<div class="column">
+<img class="kitRender hover-shadow" onclick="openModal();currentSlide(4)" src="images/renders/Kit_Accent.jpg" alt="accentKit">
+</div>
 
 <h2>Extra Straws</h2>
 <img class="kitRender" src="images/renders/Kit_Spacebar.jpg" alt="spacebarKit">
@@ -32,5 +41,60 @@
 <h2>Novelties</h2>
 <p>WIP, boba caps will return, with hopefully more to come!</p>
 </div>
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/renders/Kit_Base-2.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img2_wide.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img3_wide.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img4_wide.jpg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="images/renders/Kit_Base-2.jpg" onclick="currentSlide(1)" alt="Nature">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+          </div>
+        </div>
+      </div>
+
 </body>
 </html>
