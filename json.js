@@ -69,7 +69,7 @@ $().ready(function(){
 
         //thumbnail image controls
         modalContent+='<div class="column">';
-        modalContent+='<img class="demo" src="images/renders/'+data.Renders[0].name+'" onclick="currentSlide(1)" alt = "'+data.Renders[0].desc+'">';
+        modalContent+='<img class="demo" src="images/renders/thumbs/'+data.Renders[0].thumbnail+'" onclick="currentSlide(1)" alt = "'+data.Renders[0].desc+'">';
         modalContent+='</div>';
 
         for(i in data.Kits)
@@ -77,7 +77,7 @@ $().ready(function(){
             modalContent+='<div class="column">';
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(2);
-            modalContent+='<img class="demo" src="images/renders/'+data.Kits[i].image.thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Kits[i].image.desc+'">';
+            modalContent+='<img class="demo" src="images/renders/thumbs/'+data.Kits[i].image.thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Kits[i].image.desc+'">';
             modalContent+='</div>';
         }
         for(i = 1; i < data.Renders.length; i++)
