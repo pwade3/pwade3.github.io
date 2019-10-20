@@ -176,6 +176,10 @@ a:visited {
     color: white;
   }
   
+.slideImg{
+  max-height: 900px;
+}
+
   img.demo {
     opacity: 0.6;
     width:60%;
