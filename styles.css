@@ -31,8 +31,11 @@ a:visited {
     color: #f8c200;
 }
 
-.banner {
+.bnrTxt{
     color: #221C35;
+}
+
+.banner {
     background: #00a4a9; /* Old browsers */
     background: -moz-linear-gradient(45deg, #00a4a9 50%, #f8c200 50%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,#00a4a9 50%,#f8c200 50%); /* Chrome10-25,Safari5.1-6 */
