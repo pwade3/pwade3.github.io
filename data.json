@@ -4,24 +4,27 @@
             "kitname":"Base",
             "image":{
                 "name":"Kit_Base-2.jpg",
+                "thumbnail":"Kit_Base-2_tn.jpg",
                 "alt":"Base",
                 "desc":"Base Kit"
             },
-            "text":"This kit will cover most users, Full size, 1800, TKL, 65%, 60%, all are represented here (even UK ISO users). There are a few extras like a stepped control key, an R4 1.5u Caps Lock, and R3/R4 Pg Up/Dn that'll help you get the exact legends you want on the right keys. One change from R1 is the stepped caps lock and num lock getting changed to single-line legends for more consistency. Numpad sublegends have been removed for an overall cleaner look as well. "
+            "text":"This kit will cover most users, Full size, 1800, TKL, 65%, 60%, all are represented here (even UK ISO users). There are a few extras like a stepped control key, an R4 1.5u Caps Lock, and R3/R4 Pg Up/Dn that'll help you get the exact legends you want on the right keys.</p><p> One change from R1 is the stepped caps lock and num lock getting changed to single-line legends for more consistency. Numpad sublegends have been removed for an overall cleaner look as well. "
         },
         {
             "kitname":"Ergo/Ortho/40s",
             "image":{
                 "name":"Kit_Ergo.jpg",
+                "thumbnail":"Kit_Ergo_tn.jpg",
                 "alt":"Ergo/Ortho/40s",
                 "desc":"Ergo/Ortho/40s Kit"
             },
-            "text":"This kit is for those of you with slightly more adventurous layouts. This is intended for your Ergo split boards, ortholinear boards, even staggered 40%s. INSERT EXAMPLE BOARDS HERE The blank modifiers help cut down on redundancy (i.e. 3 Tab keys, 4 enter keys) which will help keep the set more affordable! "
+            "text":"This kit is for those of you with slightly more adventurous layouts. This is intended for your Ergo split boards, ortholinear boards, even staggered 40%s, Boardwalk, Ergodox, Minorca, Sebright, Planck, Dimple, UT47, and more are all well-served by this lovely kit. </p><p> The blank modifiers help cut down on redundancy (i.e. 3 Tab keys, 4 enter keys) which will help keep the set more affordable! "
         },
         {
             "kitname":"Boba Alphas",
             "image":{
                 "name":"Kit_Alpha.jpg",
+                "thumbnail":"Kit_Alpha_tn.jpg",
                 "alt":"Boba Alphas",
                 "desc":"Boba Alpha Kit"
             },
@@ -31,6 +34,7 @@
             "kitname":"Extra Toppings",
             "image":{
                 "name":"Kit_Accent.jpg",
+                "thumbnail":"Kit_Accent_tn.jpg",
                 "alt":"Extra Toppings",
                 "desc":"Extra Toppings Kit"
             },
@@ -40,6 +44,7 @@
             "kitname":"Extra Straws",
             "image":        {
                 "name":"Kit_Spacebar.jpg",
+                "thumbnail":"Kit_Spacebar_tn.jpg",
                 "alt":"Extra Straws",
                 "desc":"Extra Straws Kit"
             },
@@ -49,51 +54,61 @@
     "Renders": [
         {
             "name":"910_Top.jpg",
+            "thumbnail":"910_Top_tn.jpg",
             "alt":"910 Top Render",
             "desc":"TGR 910 with Boba Alphas"
         },
         {
             "name":"910_Angle.jpg",
+            "thumbnail":"910_Angle_tn.jpg",
             "alt":"910 Angle",
             "desc":"TGR 910 with Boba Alphas"
         },
         {
             "name":"Campine_Top.jpg",
+            "thumbnail":"Campine_Top_tn.jpg",
             "alt":"Campine Top",
             "desc":"Panc.Co Campine with Ergo/Ortho/40s Kit"
         },
         {
             "name":"Campine_Angle.jpg",
+            "thumbnail":"Campine_Angle_tn.jpg",
             "alt":"Campine Angle",
             "desc":"Panc.co Campine with Ergo/Ortho/40s Kit"
         },
         {
             "name":"Minorca_Top.jpg",
+            "thumbnail":"Minorca_Top_tn.jpg",
             "alt":"Minorca Top",
             "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
         },
         {
             "name":"Minorca_Angle.jpg",
+            "thumbnail":"Minorca_Angle_tn.jpg",
             "alt":"Minorca Angle",
             "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
         },
         {
             "name":"Sebright_Top.jpg",
+            "thumbnail":"Sebright_Top_tn.jpg",
             "alt":"Sebright Top",
             "desc":"Panc.co Sebright with Ergo/Ortho/40s Kit"
         },
         {
             "name":"Sebright_Angle.jpg",
+            "thumbnail":"Sebright_Angle_tn.jpg",
             "alt":"Sebright Angle",
             "desc":"Panc.co Sebright with Ergo/Ortho/40s Kit"
         },
         {
             "name":"MinorcaWhite_Top.jpg",
+            "thumbnail":"MinorcaWhite_Top_tn.jpg",
             "alt":"White Minorca Top",
             "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
         },
         {
             "name":"MinorcaWhite_Angle.jpg",
+            "thumbnail":"MinorcaWhite_Angle_tn.jpg",
             "alt":"White Minorca Angle",
             "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
         }
