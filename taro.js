@@ -1,5 +1,5 @@
 $().ready(function(){
-    $.getJSON("data.json",function(data){
+    $.getJSON("tarodata.json",function(data){
         console.log(data);
         
         //Bulding all the Kit listings
