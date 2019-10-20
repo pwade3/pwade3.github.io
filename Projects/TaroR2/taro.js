@@ -40,7 +40,8 @@ $().ready(function(){
             table+="<td>";
             table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" alt="'+data.Pictures[i].alt+'">';
             table+="</td>";
-            if(parseInt(i)+parseInt(1)%3 == 0)
+            var ctr=parseInt(i)+parseInt(1);
+            if(ctr%3 == 0)
             {
                 table+="</tr>";
             }
