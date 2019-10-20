@@ -51,11 +51,11 @@ $().ready(function(){
             modalContent+='<img src="images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
             modalContent+='</div>';
         }
-        for(i in data.Renders)
+        for(i = 1; i < data.Renders.length; i++)
         {
             modalContent+='<div class="mySlides">';
             var slideNum = i;
-            slideNum = parseInt(slideNum)+parseInt(7);
+            slideNum = parseInt(slideNum)+parseInt(6);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
             modalContent+='<img src="images/renders/'+data.Renders[i].name+'" style="width:100%">';
             modalContent+='</div>';
@@ -80,11 +80,11 @@ $().ready(function(){
             modalContent+='<img class="demo" src="images/renders/'+data.Kits[i].image.name+'" onclick="currentSlide('+slideNum+')" alt="'+data.Kits[i].image.desc+'">';
             modalContent+='</div>';
         }
-        for(i in data.Renders)
+        for(i = 1; i < data.Renders.length; i++)
         {
             modalContent+='<div class="column">';
             var slideNum = i;
-            slideNum = parseInt(slideNum)+parseInt(7);
+            slideNum = parseInt(slideNum)+parseInt(6);
             modalContent+='<img class="demo" src="images/renders/'+data.Renders[i].name+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
             modalContent+='</div>';
         }

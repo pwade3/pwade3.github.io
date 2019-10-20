@@ -20,6 +20,11 @@ a:visited {
     color: #f8c200;
 }
 
+.banner {
+    text-align: center;
+    
+}
+
 html, body {
     height: 100%;
     margin-left: 7%;
