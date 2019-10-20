@@ -36,11 +36,11 @@ $().ready(function(){
         for(i in data.Pictures)
         {
             var num = i;
-            num = parseInt(num)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            num = parseInt(num)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(1);
             table+="<td>";
             table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" alt="'+data.Pictures[i].alt+'">';
             table+="</td>";
-            if(parseInt(i)%3 == 0 && parseInt(i)!=0)
+            if(parseInt(i)+parseInt(1)%3 == 0)
             {
                 table+="</tr>";
             }
