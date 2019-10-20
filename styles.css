@@ -32,12 +32,13 @@ a:visited {
 }
 
 .banner {
-    background: #00a4a9; /* Old browsers */
-    background: -moz-linear-gradient(top, #00a4a9 29%, #00a4a9 50%, #f8c200 50%, #f8c200 71%, #f8c200 71%, #f8c200 71%, #f8c200 71%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #00a4a9 29%,#00a4a9 50%,#f8c200 50%,#f8c200 71%,#f8c200 71%,#f8c200 71%,#f8c200 71%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #00a4a9 29%,#00a4a9 50%,#f8c200 50%,#f8c200 71%,#f8c200 71%,#f8c200 71%,#f8c200 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    text-align: center;
-    font-size: 40px;
     color: #221C35;
+    background: #00a4a9; /* Old browsers */
+    background: -moz-linear-gradient(top, #00a4a9 50%, #f8c200 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,#00a4a9 50%,#f8c200 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,#00a4a9 50%,#f8c200 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    text-align: center;
+    font-size: 40px;
+    
 }
 
 .kitRender {
@@ -60,7 +61,6 @@ a:visited {
     background-color: #221C35;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top:10px;
     text-align: left;
 }
 
