@@ -79,7 +79,7 @@ a:visited {
   
   /* Create four equal columns that floats next to eachother */
   .column {
-    float: center;
+    float: left;
     width: 8%;
   }
   
@@ -182,7 +182,7 @@ a:visited {
 
   img.demo {
     opacity: 0.6;
-    width:70%;
+    width:60%;
   }
   
   .active,
