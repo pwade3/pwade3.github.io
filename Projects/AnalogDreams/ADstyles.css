@@ -187,7 +187,7 @@ html, body {
     }
     
     .active,
-    .demo:hover 
+    .demo:hover,
     img.demo.active{
       opacity: 1;
     }
