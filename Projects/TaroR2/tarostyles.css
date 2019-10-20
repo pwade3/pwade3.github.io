@@ -79,8 +79,8 @@ a:visited {
   
   /* Create four equal columns that floats next to eachother */
   .column {
-    float: left;
-    width: 10%;
+    float: center;
+    width: 8%;
   }
   
   /* The Modal (background) */
@@ -182,7 +182,7 @@ a:visited {
 
   img.demo {
     opacity: 0.6;
-    width:60%;
+    width:70%;
   }
   
   .active,
