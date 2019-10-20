@@ -66,7 +66,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(2);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img class="slideImg" src="/Projects/TaroR2/images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
+            modalContent+='<img src="/Projects/TaroR2/images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
             modalContent+='</div>';
         }
         for(i = 1; i < data.Renders.length; i++)
@@ -75,7 +75,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(1);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img class="slideImg" src="/Projects/TaroR2/images/renders/'+data.Renders[i].name+'" style="width:100%">';
+            modalContent+='<img src="/Projects/TaroR2/images/renders/'+data.Renders[i].name+'" style="width:100%">';
             modalContent+='</div>';
         }
         for(i in data.Pictures)
