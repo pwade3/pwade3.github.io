@@ -82,6 +82,7 @@ $().ready(function(){
             modalContent+='<div class="mySlides">';
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            console.log(slideNum);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
             modalContent+='<img src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" style="width:100%">';
             modalContent+='</div>';
