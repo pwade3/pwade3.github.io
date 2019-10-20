@@ -19,7 +19,7 @@ $().ready(function(){
         for(i = 1; i < data.Renders.length; i++)
         {
             var num = i;
-            num = parseInt(num)+parseInt(6);
+            num = parseInt(num)+parseInt(data.Kits.length)+parseInt(1);
             table+="<td>";
             table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/renders/'+data.Renders[i].name+'" alt="'+data.Renders[i].alt+'">';
             table+="</td>";
@@ -31,10 +31,27 @@ $().ready(function(){
         table+="</tr></table>";
         $("#renderGallery").append(table);
 
+        //Building the table of renders
+        var table = "<table><tr>"
+        for(i = 1; i < data.Pictures.length; i++)
+        {
+            var num = i;
+            num = parseInt(num)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            table+="<td>";
+            table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/pictures/'+data.Renders[i].name+'" alt="'+data.Pictures[i].alt+'">';
+            table+="</td>";
+            if(parseInt(i)%3 == 0)
+            {
+                table+="</tr>";
+            }
+        }
+        table+="</tr></table>";
+        $("#imgGallery").append(table);
+
 
         //Building the gallery
         var modalContent='<span class="close cursor" onclick="closeModal()">&times;</span><div class="modal-content">';
-        var slideCount = data.Renders.length+data.Kits.length;
+        var slideCount = data.Renders.length+data.Kits.length+data.Pictures.length;
 
         modalContent+='<div class="mySlides">';
         modalContent+='<div class="numbertext"> 1 / ' + slideCount + '</div>';

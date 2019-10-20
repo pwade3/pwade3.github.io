@@ -112,5 +112,43 @@
             "alt":"White Minorca Angle",
             "desc":"Panc.co Minorca with Ergo/Ortho/40s Kit"
         }
+    ],
+    "Pictures":[
+        {
+            "name":"IMG_1.png",
+            "thumbnail":"IMG_1_tn.jpg",
+            "alt":"Image 1",
+            "desc":"Taro R1 on an X60"
+        },
+        {
+            "name":"IMG_2.jpg",
+            "thumbnail":"IMG_2_tn.jpg",
+            "alt":"Image 2",
+            "desc":"Taro R1 on a TGR Alice"
+        },
+        {
+            "name":"IMG_3.jpg",
+            "thumbnail":"IMG_3_tn.jpg",
+            "alt":"Image 3",
+            "desc":"Taro R1 on a Savage65"
+        },
+        {
+            "name":"IMG_4.jpg",
+            "thumbnail":"IMG_4_tn.jpg",
+            "alt":"Image 4",
+            "desc":"Taro R1 on a Savage65"
+        },
+        {
+            "name":"IMG_5.jpg",
+            "thumbnail":"IMG_5_tn.jpg",
+            "alt":"Image 5",
+            "desc":"Taro R1 on an TKC 1800"
+        },
+        {
+            "name":"IMG_6.jpg",
+            "thumbnail":"IMG_6_tn.jpg",
+            "alt":"Image 6",
+            "desc":"Taro R1 on a Savage65"
+        }
     ]
 }
