@@ -40,7 +40,7 @@ $().ready(function(){
             table+="<td>";
             table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" alt="'+data.Pictures[i].alt+'">';
             table+="</td>";
-            if(parseInt(i)%3 == 0)
+            if(parseInt(i)%3 == 0 && parseInt(i)!=0)
             {
                 table+="</tr>";
             }
@@ -72,9 +72,18 @@ $().ready(function(){
         {
             modalContent+='<div class="mySlides">';
             var slideNum = i;
-            slideNum = parseInt(slideNum)+parseInt(6);
+            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(2);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
             modalContent+='<img src="/Projects/TaroR2/images/renders/'+data.Renders[i].name+'" style="width:100%">';
+            modalContent+='</div>';
+        }
+        for(i in data.Pictures)
+        {
+            modalContent+='<div class="mySlides">';
+            var slideNum = i;
+            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
+            modalContent+='<img src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" style="width:100%">';
             modalContent+='</div>';
         }
 
@@ -101,8 +110,16 @@ $().ready(function(){
         {
             modalContent+='<div class="column">';
             var slideNum = i;
-            slideNum = parseInt(slideNum)+parseInt(6);
+            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(2);
             modalContent+='<img class="demo" src="/Projects/TaroR2/images/renders/thumbs/'+data.Renders[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
+            modalContent+='</div>';
+        }
+        for(i in data.Pictures.length)
+        {
+            modalContent+='<div class="column">';
+            var slideNum = i;
+            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            modalContent+='<img class="demo" src="/Projects/TaroR2/images/pictures/thumbs/'+data.Pictures[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Pictures[i].desc+'">';
             modalContent+='</div>';
         }
         modalContent+='</div>';
