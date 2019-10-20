@@ -9,11 +9,16 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 h1 {
-  color: #00a4a9;
+  color: #9595D2;
 }
 h2 {
     color: #9595D2;
   }
+
+.sectionTitle {
+    color: #00a4a9;
+}
+
 p, ul {
   color: #9595D2;
 }
@@ -28,7 +33,7 @@ a:visited {
 
 .banner {
     text-align: center;
-    font-size: 70;
+    font-size: 70px;
     color: #9595D2;
 }
 
