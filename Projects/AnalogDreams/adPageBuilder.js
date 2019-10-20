@@ -1,5 +1,5 @@
 $().ready(function(){
-    $.getJSON("https://pwade3.github.io/Projects/AnalogDreams/adData.json",function(data){
+    $.getJSON("https://pwade3.github.io/Projects/AnalogDreams/data.json",function(data){
         console.log(data);
         
         //Bulding all the Kit listings
