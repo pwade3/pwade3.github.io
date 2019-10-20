@@ -88,7 +88,7 @@ $().ready(function(){
             modalContent+='<img class="demo" src=images/renders/'+data.Renders[i].name+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
             modalContent+='</div>';
         }
-        modalContent+='</div';
+        modalContent+='</div>';
 
         console.log(modalContent);
         $("#myModal").append(modalContent);
