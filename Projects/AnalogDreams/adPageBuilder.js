@@ -1,5 +1,5 @@
 $().ready(function(){
-    $.getJSON("/Projects/AnalogDreams/data.json",function(data){
+    $.getJSON("/Projects/AnalogDreams/adData.json",function(data){
         console.log(data);
         
         //Bulding all the Kit listings
