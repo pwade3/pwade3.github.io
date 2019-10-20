@@ -8,12 +8,10 @@ html, body {
   background-color: #9595D2;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-h1 {
-  color: #9595D2;
-}
-h2 {
+
+h2,h3 {
     color: #9595D2;
-  }
+}
 
 .sectionTitle {
     color: #00a4a9;

@@ -33,7 +33,7 @@ $().ready(function(){
 
 
         //Building the gallery
-        var modalContent='<div class="modal-content">';
+        var modalContent='<span class="close cursor" onclick="closeModal()">&times;</span><div class="modal-content">';
         var slideCount = data.Renders.length+data.Kits.length;
 
         modalContent+='<div class="mySlides">';
