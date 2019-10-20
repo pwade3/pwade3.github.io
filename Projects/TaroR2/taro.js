@@ -1,5 +1,5 @@
 $().ready(function(){
-    $.getJSON("tarodata.json",function(data){
+    $.getJSON("https://pwade3.github.io/Projects/TaroR2/tarodata.json",function(data){
         console.log(data);
         
         //Bulding all the Kit listings
