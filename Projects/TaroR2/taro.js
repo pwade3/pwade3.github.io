@@ -115,7 +115,7 @@ $().ready(function(){
             modalContent+='<img class="demo" src="/Projects/TaroR2/images/renders/thumbs/'+data.Renders[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
             modalContent+='</div>';
         }
-        for(i in data.Pictures.length)
+        for(i in data.Pictures)
         {
             modalContent+='<div class="column">';
             var slideNum = i;
