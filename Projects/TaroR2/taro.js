@@ -33,12 +33,12 @@ $().ready(function(){
 
         //Building the table of renders
         var table = "<table><tr>"
-        for(i = 1; i < data.Pictures.length; i++)
+        for(i in data.Pictures)
         {
             var num = i;
             num = parseInt(num)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
             table+="<td>";
-            table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/pictures/'+data.Renders[i].name+'" alt="'+data.Pictures[i].alt+'">';
+            table+='<img class="boardRender hover-shadow" onclick="openModal();currentSlide('+num+')" src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" alt="'+data.Pictures[i].alt+'">';
             table+="</td>";
             if(parseInt(i)%3 == 0)
             {
