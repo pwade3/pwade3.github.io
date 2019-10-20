@@ -1,5 +1,5 @@
 $().ready(function(){
-    $.getJSON("ADdata.json",function(data){
+    $.getJSON("data.json",function(data){
         console.log(data);
         
         //Bulding all the Kit listings
