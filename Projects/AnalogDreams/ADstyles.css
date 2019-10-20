@@ -9,7 +9,8 @@ html, body {
 background: -moz-linear-gradient(top, #9de7d7 20%, #ac4fc6 40%, #f1b2dc 60%, #f2f0a1 80%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #9de7d7 20%,#ac4fc6 40%,#f1b2dc 60%,#f2f0a1 80%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #9de7d7 20%,#ac4fc6 40%,#f1b2dc 60%,#f2f0a1 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'monospace' ;
+    
   }
   
   h2,h3 {
@@ -37,7 +38,7 @@ background: linear-gradient(to bottom, #9de7d7 20%,#ac4fc6 40%,#f1b2dc 60%,#f2f0
   }
   
   .banner {
-      background: #AC4FC6; /* Old browsers */
+      /*background: #AC4FC6;*/ /* Old browsers */
       
       font-size: 35px;
       padding-bottom:8px;
