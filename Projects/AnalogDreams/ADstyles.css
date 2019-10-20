@@ -5,39 +5,39 @@ html, body {
     margin-right: 9%;
     padding: 0;
     margin-top:0;
-    background-color: #d8d2c3;
+    background-color: #9DE7D7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   }
   
   h2,h3 {
-      color: #f8c200;
+      color: #F1B2DC;
   }
   
   .sectionTitle {
-      color: #00a4a9;
+      color: #F2F0A1;
   }
   
   p, ul {
-    color: #9595D2;
+    color: #AC4FC6;
   }
   
   a:link{
-      color: #00a4a9;
+      color: #F2F0A1;
   }
   
   a:visited {
-      color: #f8c200;
+      color: #F2F0A1;
   }
   
   .bnrTxt{
-      color: #221C35;
+      color: #AC4FC6;
   }
   
   .banner {
-      background: #00a4a9; /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #00a4a9 50%, #f8c200 50%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(-45deg,#00a4a9 50%,#f8c200 50%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(-45deg,#00a4a9 50%,#f8c200 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    text-align: center;
+      background: #AC4FC6; /* Old browsers */
+      background: -moz-linear-gradient(-45deg, #AC4FC6 50%, #9DE7D7 50%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg,#AC4FC6 50%,#9DE7D7 50%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(-45deg,#AC4FC6 50%,#9DE7D7 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    text-align: center;
       font-size: 35px;
       padding-bottom:8px;
   }
@@ -59,7 +59,7 @@ html, body {
   }
   .container {
       display: inline-block;
-      background-color: #221C35;
+      background-color: #d8d2c3;
       padding-left: 100px;
       padding-right: 100px;
       padding-top: 10px;
