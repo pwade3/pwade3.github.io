@@ -34,19 +34,4 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
-  }
-
-document.getElementById("myModal").addEventListener("keydown", function(event){
-    //do something on keydown
-    switch (event.keyCode){
-        case 37:
-            plusSlides(-1);
-            break;
-        case 39:
-            plusSlides(1);
-            break;
-        case 27:
-            closeModal();
-            break;
-    }
-});
+}

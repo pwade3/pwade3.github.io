@@ -96,3 +96,18 @@ $().ready(function(){
     });
 });
 
+document.getElementById("myModal").addEventListener("keydown", function(event){
+    //do something on keydown
+    switch (event.keyCode){
+        case 37:
+            plusSlides(-1);
+            break;
+        case 39:
+            plusSlides(1);
+            break;
+        case 27:
+            closeModal();
+            break;
+    }
+});
+
