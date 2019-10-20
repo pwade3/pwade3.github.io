@@ -182,7 +182,8 @@ a:visited {
   }
   
   .active,
-  .demo:hover {
+  .demo:hover 
+  .demo:active{
     opacity: 1;
   }
   
