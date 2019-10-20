@@ -81,7 +81,7 @@ $().ready(function(){
         {
             modalContent+='<div class="mySlides">';
             var slideNum = i;
-            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(1);
             console.log(slideNum);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
             modalContent+='<img src="/Projects/TaroR2/images/pictures/'+data.Pictures[i].name+'" style="width:100%">';
@@ -119,7 +119,8 @@ $().ready(function(){
         {
             modalContent+='<div class="column">';
             var slideNum = i;
-            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(2);
+            slideNum = parseInt(slideNum)+parseInt(data.Kits.length)+parseInt(data.Renders.length)+parseInt(1);
+            console.log(slideNum);
             modalContent+='<img class="demo" src="/Projects/TaroR2/images/pictures/thumbs/'+data.Pictures[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Pictures[i].desc+'">';
             modalContent+='</div>';
         }
