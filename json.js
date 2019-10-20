@@ -38,7 +38,7 @@ $().ready(function(){
 
         modalContent+='<div class="mySlides">';
         modalContent+='<div class="numbertext"> 1 / ' + slideCount + '</div>';
-        modalContent+='<img src="images/renders'+data.Renders[0].name+'" style="width:100%">';
+        modalContent+='<img src="images/renders/'+data.Renders[0].name+'" style="width:100%">';
         modalContent+='</div>';
 
         console.log(slideCount)
