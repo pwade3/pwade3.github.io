@@ -18,8 +18,8 @@ html, body {
   
   h2,h3 {
       color: #F1B2DC;
+      font-weight: bold;
   }
-  
   .sectionTitle {
       color: #F2F0A1;
   }
