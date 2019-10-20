@@ -85,7 +85,7 @@ $().ready(function(){
             modalContent+='<div class="column">';
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(6);
-            modalContent+='<img class="demo" src="images/renders/thumbs'+data.Renders[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
+            modalContent+='<img class="demo" src="images/renders/thumbs/'+data.Renders[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
             modalContent+='</div>';
         }
         modalContent+='</div>';
