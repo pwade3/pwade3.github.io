@@ -59,8 +59,7 @@ a:visited {
 .container {
     display: inline-block;
     background-color: #221C35;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
     text-align: left;
 }
 
