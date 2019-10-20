@@ -38,7 +38,7 @@ $().ready(function(){
 
         modalContent+='<div class="mySlides">';
         modalContent+='<div class="numbertext"> 1 / ' + slideCount + '</div>';
-        modalContent+='<img src="images/renders/'+data.Renders[0].name+'" style="width:100%">';
+        modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Renders[0].name+'" style="width:100%">';
         modalContent+='</div>';
 
         for(i in data.Kits)
@@ -47,7 +47,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(2);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img src="images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
+            modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
             modalContent+='</div>';
         }
         for(i = 1; i < data.Renders.length; i++)
@@ -56,7 +56,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(6);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img src="images/renders/'+data.Renders[i].name+'" style="width:100%">';
+            modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Renders[i].name+'" style="width:100%">';
             modalContent+='</div>';
         }
 
@@ -68,7 +68,7 @@ $().ready(function(){
 
         //thumbnail image controls
         modalContent+='<div class="column">';
-        modalContent+='<img class="demo" src="images/renders/thumbs/'+data.Renders[0].thumbnail+'" onclick="currentSlide(1)" alt = "'+data.Renders[0].desc+'">';
+        modalContent+='<img class="demo" src="/Projects/AnalogDreams/images/renders/thumbs/'+data.Renders[0].thumbnail+'" onclick="currentSlide(1)" alt = "'+data.Renders[0].desc+'">';
         modalContent+='</div>';
 
         for(i in data.Kits)
@@ -76,7 +76,7 @@ $().ready(function(){
             modalContent+='<div class="column">';
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(2);
-            modalContent+='<img class="demo" src="images/renders/thumbs/'+data.Kits[i].image.thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Kits[i].image.desc+'">';
+            modalContent+='<img class="demo" src="/Projects/AnalogDreams/images/renders/thumbs/'+data.Kits[i].image.thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Kits[i].image.desc+'">';
             modalContent+='</div>';
         }
         for(i = 1; i < data.Renders.length; i++)
@@ -84,7 +84,7 @@ $().ready(function(){
             modalContent+='<div class="column">';
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(6);
-            modalContent+='<img class="demo" src="images/renders/thumbs/'+data.Renders[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
+            modalContent+='<img class="demo" src="/Projects/AnalogDreams/images/renders/thumbs/'+data.Renders[i].thumbnail+'" onclick="currentSlide('+slideNum+')" alt="'+data.Renders[i].desc+'">';
             modalContent+='</div>';
         }
         modalContent+='</div>';
