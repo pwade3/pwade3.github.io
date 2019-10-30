@@ -31,7 +31,7 @@ $().ready(function(){
         table+="</tr></table>";
         $("#renderGallery").append(table);
 
-        //Building the table of renders
+        //Building the table of pictures
         var table = "<table><tr>"
         for(i in data.Pictures)
         {
