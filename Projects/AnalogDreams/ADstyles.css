@@ -15,6 +15,10 @@ html, body {
     font-family: 'courier' ;
     
   }
+
+  td{
+    width:33%
+  }
   
   h2,h3 {
       color: #F1B2DC;
