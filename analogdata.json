@@ -88,5 +88,67 @@
             "alt":"Alice Angle",
             "desc":"Alice"
         }
+    ],
+    "Pictures":[
+        {
+            "name":"IMG_1.png",
+            "thumbnail":"IMG_1_tn.jpg",
+            "alt":"Image 1",
+            "desc":"Pantone Chips in Neutral Lighting"
+        },
+        {
+            "name":"IMG_2.jpg",
+            "thumbnail":"IMG_2_tn.jpg",
+            "alt":"Image 2",
+            "desc":"Pantone Chipe in Neutral Lighting"
+        },
+        {
+            "name":"IMG_3.jpg",
+            "thumbnail":"IMG_3_tn.jpg",
+            "alt":"Image 3",
+            "desc":"Pantone Chips in Warm Lighting"
+        },
+        {
+            "name":"IMG_4.jpg",
+            "thumbnail":"IMG_4_tn.jpg",
+            "alt":"Image 4",
+            "desc":"Pantone Chips in Warm Lighting"
+        },
+        {
+            "name":"IMG_5.jpg",
+            "thumbnail":"IMG_5_tn.jpg",
+            "alt":"Image 5",
+            "desc":"Group Shot of Initial Samples with Pantone Chips"
+        },
+        {
+            "name":"IMG_6.jpg",
+            "thumbnail":"IMG_6_tn.jpg",
+            "alt":"Image 6",
+            "desc":"Legend Color Sample"
+        },
+        {
+            "name":"IMG_7.jpg",
+            "thumbnail":"IMG_7_tn.jpg",
+            "alt":"Image 7",
+            "desc":"Modifier Color Sample"
+        },
+        {
+            "name":"IMG_8.jpg",
+            "thumbnail":"IMG_8_tn.jpg",
+            "alt":"Image 8",
+            "desc":"Magneta Accent Color Sample (TO BE RE-SAMPLED)"
+        },
+        {
+            "name":"IMG_9.jpg",
+            "thumbnail":"IMG_9_tn.jpg",
+            "alt":"Image 9",
+            "desc":"Yellow Accent Color Sample"
+        },
+        {
+            "name":"IMG_10.jpg",
+            "thumbnail":"IMG_10_tn.jpg",
+            "alt":"Image 10",
+            "desc":"Group Shot of Samples with L9"
+        }
     ]
 }
