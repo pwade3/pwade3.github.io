@@ -65,7 +65,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(2);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Kits[i].image.name+'" style="width:100%">';
+            modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Kits[i].image.name+'">';
             modalContent+='</div>';
         }
         for(i = 1; i < data.Renders.length; i++)
@@ -74,7 +74,7 @@ $().ready(function(){
             var slideNum = i;
             slideNum = parseInt(slideNum)+parseInt(data.Kits.Length)+parseInt(1);
             modalContent+='<div class="numbertext">'+ slideNum + ' / ' + slideCount + '</div>';
-            modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Renders[i].name+'" style="width:100%">';
+            modalContent+='<img src="/Projects/AnalogDreams/images/renders/'+data.Renders[i].name+'">';
             modalContent+='</div>';
         }
         for(i in data.Pictures)
